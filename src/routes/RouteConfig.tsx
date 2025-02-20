@@ -1,5 +1,4 @@
 
-import EditItem from "../pages/EditItem";
 import Home from "../pages/Home";
 import ItemDetail from "../pages/ItemDetail";
 export const ROUTES = {
@@ -10,5 +9,4 @@ export const ROUTES = {
   export const routesConfig = [
     { path: ROUTES.HOME, component: Home },
     { path: ROUTES.ITEM_DETAIL, component: ItemDetail },
-    { path: ROUTES.EDIT_ITEM, component: EditItem },
   ];
